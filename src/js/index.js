@@ -247,10 +247,14 @@ window.controlador = {
 
 
   posteos: () => {
+    
 
-    var btnAfore = document.getElementById("btn-afore");
-    var vistaDirectorio = document.getElementById("directorio");
-    var vistaBienvenida = document.getElementById("bienvenida");
+    const btnAfore = document.getElementById("btn-afore");
+    const vistaDirectorio = document.getElementById("directorio");
+    const vistaBienvenida = document.getElementById("bienvenidas");
+    
+
+
     btnAfore.addEventListener("click",()=>{
       vistaBienvenida.style.display = "none"
       vistaDirectorio.style.display = "inline-grid"
